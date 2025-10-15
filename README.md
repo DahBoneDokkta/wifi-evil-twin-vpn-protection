@@ -77,7 +77,7 @@ Even simple setups can expose sensitive data - but **VPNs provide a strong, prac
 ### Full Report (Swedish)
 The full thesis (in Swedish) includes theoretical background, methodology, results, and recommendations.
 
-📘 [Download full report (PDF)](Examensarbete_Simon_Arnar_Jessie_Martensson.pdf)
+[Download full report (PDF)](Examensarbete_Simon_Arnar_Jessie_Martensson.pdf)
 
 ---
 
