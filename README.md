@@ -1,6 +1,6 @@
 # Wi-Fi Evil Twin & VPN Protection
 
-### 🧠 Overview
+### Overview
 This project was part of my final thesis for a two-year Fullstack .NET Developer vocational program (2023–2025) in Sweden.  
 The goal was to explore **security risks in open Wi-Fi networks**, focusing on *Evil Twin* and *Deauthentication* attacks, and to test how **VPN encryption** can protect user data against Man-in-the-Middle exploits.
 
@@ -8,7 +8,7 @@ We built a custom lab using an **OpenWRT-based GL.iNet Mango router** and a **Wi
 
 ---
 
-### ⚙️ Methodology
+### Methodology
 All tests were conducted on our own networks and devices in a controlled lab setup.  
 The process followed a qualitative, hands-on approach:
 
@@ -20,7 +20,7 @@ The process followed a qualitative, hands-on approach:
 
 ---
 
-### 🧰 Tools & Equipment
+### Tools & Equipment
 | Category | Tools / Hardware |
 |-----------|------------------|
 | Router | GL.iNet Mango (OpenWRT) |
@@ -30,13 +30,13 @@ The process followed a qualitative, hands-on approach:
 | VPN | WireGuard (Integrity VPN) |
 | OS | Linux & Windows |
 
-#### 💡 Hardware Notes
+#### Hardware Notes
 The Wi-Fi adapters used in this project were chosen specifically for their support of **monitor mode** and **packet injection** - two critical features required to capture and inject wireless frames during testing.  
 This capability allowed the Mango router (running the Pineapple clone) to broadcast fake SSIDs and capture client traffic at the packet level.  
 
 The adapters were selected after researching compatibility for **monitor mode** and **packet injection** support. Many common USB adapters are limited to basic client mode only, so I looked for models with proven support in security-testing communities. My main goal was to keep the setup **affordable, open-source–friendly and educational**, while still capable of performing real packet capture and injection in the lab environment.
 
-#### 🖥️ Software Notes
+#### Software Notes
 The Pineapple clone (OpenWRT-based) was chosen because it is **free, open-source and easy to obtain**, making it ideal for educational lab work. Using an openly available clone allowed us to inspect and modify the attack surface while keeping the setup reproducible for others.
 
 Key software used:
@@ -53,7 +53,7 @@ and [xchwarze – WiFi Pineapple Cloner](https://github.com/xchwarze/wifi-pineap
 
 ---
 
-### 📊 Key Findings
+### Key Findings
 - **Evil Twin and Deauthentication attacks are easy to perform** with inexpensive, open-source tools.  
 - **Unencrypted traffic (HTTP)** revealed login credentials and session data in plaintext.  
 - **VPN encryption (WireGuard)** completely blocked data visibility in Wireshark.  
@@ -62,26 +62,26 @@ and [xchwarze – WiFi Pineapple Cloner](https://github.com/xchwarze/wifi-pineap
 
 ---
 
-### 🔐 Ethical Considerations
+### Ethical Considerations
 All experiments were carried out **only on our own networks and devices**.  
 The purpose was educational - to raise awareness about public Wi-Fi vulnerabilities and promote safer usage, not to perform unauthorized attacks.
 
 ---
 
-### 🧩 Conclusion
+### Conclusion
 Wi-Fi remains convenient but inherently insecure due to unencrypted management frames and user trust in open networks.  
 Even simple setups can expose sensitive data - but **VPNs provide a strong, practical layer of protection** that’s easy for anyone to use.
 
 ---
 
-### 📄 Full Report (Swedish)
+### Full Report (Swedish)
 The full thesis (in Swedish) includes theoretical background, methodology, results, and recommendations.
 
 📘 [Download full report (PDF)](Examensarbete_Simon_Arnar_Jessie_Martensson.pdf)
 
 ---
 
-### 📚 References
+### References
 - OpenWRT Project – https://openwrt.org  
 - GL.iNet Mango – https://www.gl-inet.com/products/gl-mt300n-v2/  
 - Wireshark – https://www.wireshark.org/  
@@ -92,7 +92,7 @@ The full thesis (in Swedish) includes theoretical background, methodology, resul
 
 ---
 
-### 👥 Authors
+### Authors
 **Simon Arnar & Jessie Mårtensson**  
 .NET Developer Students (2023–2025)  
 🔗 [Portfolio](https://simonarnardev.netlify.app/)  
