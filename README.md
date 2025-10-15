@@ -28,7 +28,7 @@ The process followed a qualitative, hands-on approach:
 | Software | Pineapple clone (GitHub), Wireshark, tcpdump |
 | Client | iPhone (iOS 18) |
 | VPN | WireGuard (Integrity VPN) |
-| OS | Linux |
+| OS | Linux & Windows |
 
 #### 💡 Hardware Notes
 The Wi-Fi adapters used in this project were chosen specifically for their support of **monitor mode** and **packet injection** - two critical features required to capture and inject wireless frames during testing.  
