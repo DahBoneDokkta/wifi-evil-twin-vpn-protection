@@ -37,6 +37,21 @@ This capability allowed the Mango router (running the Pineapple clone) to broadc
 In practice, many consumer adapters lack this functionality, so compatible USB adapters were sourced online after verifying chipset support (e.g., Realtek-based models).  
 This step was essential to replicate real-world Evil Twin behavior accurately and to validate VPN protection in a realistic wireless environment.
 
+#### 🖥️ Software Notes
+The Pineapple clone (OpenWRT-based) was chosen because it is **free, open-source and easy to obtain**, making it ideal for educational lab work. Using an openly available clone allowed us to inspect and modify the attack surface while keeping the setup reproducible for others.
+
+Key software used:
+- **Pineapple clone (OpenWRT)** — for AP emulation and attack modules.  
+- **tcpdump** — lightweight packet capture on the Mango device.  
+- **Wireshark** — detailed packet analysis and visualisation.  
+- **WireGuard** — VPN solution used to validate protection of traffic.
+
+Community projects and guides greatly accelerated setup and troubleshooting; see below for links to resources and repositories used.
+
+Credits: [SHUR1K-N – WiFi MangoApple Resources](https://github.com/SHUR1K-N/WiFi-Mangoapple-Resources)  
+and [xchwarze – WiFi Pineapple Cloner](https://github.com/xchwarze/wifi-pineapple-cloner).
+
+
 ---
 
 ### 📊 Key Findings
@@ -73,6 +88,8 @@ The full thesis (in Swedish) includes theoretical background, methodology, resul
 - Wireshark – https://www.wireshark.org/  
 - WireGuard – https://www.wireguard.com/  
 - Hak5 Wi-Fi Pineapple community
+- SHUR1K-N – WiFi MangoApple Resources: https://github.com/SHUR1K-N/WiFi-Mangoapple-Resources  
+- xchwarze – WiFi Pineapple Cloner: https://github.com/xchwarze/wifi-pineapple-cloner
 
 ---
 
