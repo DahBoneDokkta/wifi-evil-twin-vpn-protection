@@ -34,8 +34,7 @@ The process followed a qualitative, hands-on approach:
 The Wi-Fi adapters used in this project were chosen specifically for their support of **monitor mode** and **packet injection** - two critical features required to capture and inject wireless frames during testing.  
 This capability allowed the Mango router (running the Pineapple clone) to broadcast fake SSIDs and capture client traffic at the packet level.  
 
-In practice, many consumer adapters lack this functionality, so compatible USB adapters were sourced online after verifying chipset support (e.g., Realtek-based models).  
-This step was essential to replicate real-world Evil Twin behavior accurately and to validate VPN protection in a realistic wireless environment.
+The adapters were selected after researching compatibility for **monitor mode** and **packet injection** support. Many common USB adapters are limited to basic client mode only, so I looked for models with proven support in security-testing communities. My main goal was to keep the setup **affordable, open-source–friendly and educational**, while still capable of performing real packet capture and injection in the lab environment.
 
 #### 🖥️ Software Notes
 The Pineapple clone (OpenWRT-based) was chosen because it is **free, open-source and easy to obtain**, making it ideal for educational lab work. Using an openly available clone allowed us to inspect and modify the attack surface while keeping the setup reproducible for others.
