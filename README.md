@@ -1,7 +1,7 @@
 # Wi-Fi Evil Twin & VPN Protection
 
 ### 🧠 Overview
-This project was part of my final thesis in the **.NET Developer 23–25** program.  
+This project was part of my final thesis for a two-year Fullstack .NET Developer vocational program (2023–2025) in Sweden.  
 The goal was to explore **security risks in open Wi-Fi networks**, focusing on *Evil Twin* and *Deauthentication* attacks, and to test how **VPN encryption** can protect user data against Man-in-the-Middle exploits.
 
 We built a custom lab using an **OpenWRT-based GL.iNet Mango router** and a **Wi-Fi Pineapple clone** from GitHub to simulate attacks in a controlled environment.
