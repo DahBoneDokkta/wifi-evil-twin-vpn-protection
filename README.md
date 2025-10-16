@@ -41,7 +41,7 @@ The process followed a qualitative, hands-on approach:
 ### Lab Setup
 
 <p align="center">
-  <img src="./MangoApple3.jpeg" alt="Wi-Fi Evil Twin lab setup overview" width="500">
+  <img src="./MangoApple3.jpeg" alt="Wi-Fi Evil Twin lab setup overview" width="450">
 </p>
 
 <p align="center">
