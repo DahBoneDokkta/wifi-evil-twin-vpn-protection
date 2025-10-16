@@ -10,6 +10,10 @@ We built a custom lab using an **OpenWRT-based GL.iNet Mango router** and a **Wi
 <img src="./MangonApple7.JPG" alt="Wi-Fi lab hardware overview" width="550">
 </p>
 
+<p align="center">
+  <em>GL.iNet Mango router with external USB adapters used for Evil Twin and VPN protection testing.</em>
+</p>
+
 ---
 
 ### Methodology
