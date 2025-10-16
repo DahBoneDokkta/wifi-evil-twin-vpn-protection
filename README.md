@@ -48,6 +48,8 @@ The process followed a qualitative, hands-on approach:
   <em>Custom Wi-Fi security lab built with GL.iNet Mango router, external USB adapters, and OpenWRT-based Pineapple clone for Evil Twin and VPN testing.</em>
 </p>
 
+---
+
 #### Hardware Notes
 The Wi-Fi adapters used in this project were chosen specifically for their support of **monitor mode** and **packet injection** - two critical features required to capture and inject wireless frames during testing.  
 This capability allowed the Mango router (running the Pineapple clone) to broadcast fake SSIDs and capture client traffic at the packet level.  
