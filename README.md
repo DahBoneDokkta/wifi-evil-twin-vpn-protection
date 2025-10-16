@@ -6,7 +6,9 @@ The goal was to explore **security risks in open Wi-Fi networks**, focusing on *
 
 We built a custom lab using an **OpenWRT-based GL.iNet Mango router** and a **Wi-Fi Pineapple clone** from GitHub to simulate attacks in a controlled environment.
 
+<p align="center">
 <img src="./MangonApple7.JPG" alt="Wi-Fi lab hardware overview" width="600" height="750">
+</p>
 
 ---
 
