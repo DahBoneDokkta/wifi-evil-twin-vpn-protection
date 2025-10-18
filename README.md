@@ -115,5 +115,8 @@ The full thesis (in Swedish) includes theoretical background, methodology, resul
 ### Authors
 **Simon Arnar & Jessie Mårtensson**  
 .NET Developer Students (2023–2025)  
-🔗 [Portfolio](https://simonarnardev.netlify.app/)  
-🔗 [LinkedIn](https://www.linkedin.com/in/simon-arnar/)
+🔗 [Simon's Portfolio](https://simonarnardev.netlify.app/)
+🔗 [My LinkedIn](https://www.linkedin.com/in/simon-arnar/)
+🔗 [Jessie's Portfolio](https://jessiemartensson.netlify.app/)
+🔗 [Jessie's LinkedIn](https://www.linkedin.com/in/jessiemartensson/)
+
